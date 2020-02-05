@@ -3,10 +3,10 @@
 
 
 
-{{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-especialista-en-desalojos-en-uruguay.jpg'/*--}}
-{{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-experto-en-desalojo-uruguay-montevideo.jpg'/*--}}
-{{--*/ $Titulo                = 'Abogado experto en desalojos en Uruguay | Fabian Delpino' /*--}} 
-{{--*/ $DescriptionEtiqueta   = '¿Quieres desalojar a alguien?, ¿tu inquilino no se quiere ir?, ¿Te han ocupado tu casa sin tu permiso?, soy Fabian Delpino abogado experto en desalojos en Uruguay. 
+{{--*/ $ImagenPortada         = url() . '/imagenes/BikeUruguay/bike-uruguay-portada-puerto-de-punta-del-este-y-montevideo.jpg'/*--}}
+{{--*/ $ImagenParaTaG         = url() . '/imagenes/BikeUruguay/logo-bike-uruguay-color-pgxperience.jpg'/*--}}
+{{--*/ $Titulo                = 'Biking Uruguay | Pg-Xperience | En Montevideo y Punta del este' /*--}} 
+{{--*/ $DescriptionEtiqueta   = 'Nuestro objetivo es promocionar un estilo de vida sano a partir de un deporte fuertemente asociado a nuestra identidad. 
 .
  ' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}
