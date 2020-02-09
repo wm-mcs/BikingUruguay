@@ -129,13 +129,12 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-8">
-                <h1 v-if="se_muestra(empresa.home_titulo)" class="text-white">¿Quieres desalojar a alguien?</h1>
-                <p class="text-secondary">Fabian Delpino | Abogado experto en desalojos </p>
-                <p  class="lead"> ¿Tu inquilino no se quiere ir?  ¿Te ocuparon tu casa sin tu permiso?</p>
+                <h1 v-if="se_muestra(empresa.home_titulo)" class="text-white">Bike tours programados</h1>
+                <p class="lead">Tours por la Rambla de Montevideo y Punta del Este con guías bilingües y trilingües, tocando puntos históricos y bellos paisajes</p>
                 
                 <div class="flex-row-center">
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
-                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctame ahora </a>
+                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos ahora </a>
                  <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
 
                 </div>
@@ -189,7 +188,7 @@ Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de te
 
 
 
-
+    @include('paginas.home.Fotos')
 
      
 
@@ -199,12 +198,12 @@ Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de te
    
      {{-- Imagen con logo para mostrar por el medio --}}
       <div class="contiene-todo-image-centrada">
-        <img src="{{url()}}/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-uruguayo-que-se-especializa-es-desalojos.jpg" alt="Abogado especializado en desalojos dentro de Uruguay. Fabian Delpino" class="imagen-medio-de-web">
+        <img src="{{url()}}/imagenes/BikeUruguay/bike-uruguay-portada-puerto-de-punta-del-este-y-montevideo.jpg'" alt="Biking Uruguay | Pg-Xperience tours programados enfocados en el turista" class="imagen-medio-de-web">
         <div class="sub-contiene-texto-imagen-medio">
-          <div class="contiene-texto-imagen-medio-texto mb-4">¿Prestaste tu casa y no te la quieren devolver? ¿El inquilino es mal pagador? ¿Alquien te ocupo tu casa sin tu permiso?  no pierdas más tiempo actuá cuanto antes. Soy abogado experto en desalojos dentro de Uruguay Montevideo | Fabian Delpino  </div>
+          <div class="contiene-texto-imagen-medio-texto mb-4"> Paquetes especialmente diseñados para turistas </div>
           <div class="flex-row-center">
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
-                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctame ahora </a>
+                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos ahora </a>
                  <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
 
                 </div>
@@ -229,20 +228,6 @@ Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de te
 
     
 
-    <section v-if="blogs.length" class="site-section bg-light" id="blog-section">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5">Blog</h2>
-          </div>
-
-           <blog-list-component v-for="blog in blogs" :empresa="empresa" :blog="blog" :key="blog.id" ></blog-list-component>
-
-           
-
-        </div>
-      </div>
-    </section>
+   
 
 @stop
