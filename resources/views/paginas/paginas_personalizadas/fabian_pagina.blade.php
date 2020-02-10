@@ -135,7 +135,7 @@
                 <div class="flex-row-center">
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
                  <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos ahora </a>
-                 <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
+                 <img class="icono-uruguay-home" src="{{url()}}/imagenes/BikeUruguay/Bike-Uruguay-Tours-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
 
                 </div>
                 
@@ -198,13 +198,13 @@ Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de te
    
      {{-- Imagen con logo para mostrar por el medio --}}
       <div class="contiene-todo-image-centrada">
-        <img src="{{url()}}/imagenes/BikeUruguay/bike-uruguay-portada-puerto-de-punta-del-este-y-montevideo.jpg'" alt="Biking Uruguay | Pg-Xperience tours programados enfocados en el turista" class="imagen-medio-de-web">
+        <img src="{{url()}}/imagenes/BikeUruguay/bike-uruguay-portada-puerto-de-punta-del-este-y-montevideo.jpg" alt="Biking Uruguay | Pg-Xperience tours programados enfocados en el turista" class="imagen-medio-de-web">
         <div class="sub-contiene-texto-imagen-medio">
           <div class="contiene-texto-imagen-medio-texto mb-4"> Paquetes especialmente diseñados para turistas </div>
           <div class="flex-row-center">
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
                  <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos ahora </a>
-                 <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
+                 <img class="icono-uruguay-home" src="{{url()}}/imagenes/BikeUruguay/Bike-Uruguay-Tours-bandera-uruguay.png" alt="BikingUruguay bandera de Uruguay. Hacemos Bici- Tours guiados en Montevideo y Punta Del Este">
 
                 </div>
           
