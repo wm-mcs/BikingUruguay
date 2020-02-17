@@ -49,18 +49,19 @@
           </div>
           {{-- Tercera columna --}}
           <div class="col-md-6 col-lg-4 item">
+            <a href="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-foto-de-punta-del-este-tours-bicileta-crucero-playa.jpg" class="item-wrap fancybox mb-4">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-foto-de-punta-del-este-tours-bicileta-crucero-playa.jpg">
+            </a>
             <a href="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-foto-de-punta-del-este-tours-bicileta.jpg" class="item-wrap fancybox mb-4">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-foto-de-punta-del-este-tours-bicileta.jpg">
             </a>
-            <a href="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-punta-del-este-dedos.jpg" class="item-wrap fancybox mb-4">
+            <a href="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-foto-de-punta-del-este.jpg" class="item-wrap fancybox mb-4">
               <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-punta-del-este-dedos.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-foto-de-punta-del-este.jpg">
             </a>
-            <a href="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-tour.jpg" class="item-wrap fancybox mb-4">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-tour.jpg">
-            </a>
+            
            
           </div>
           
