@@ -10,6 +10,8 @@
 
 
         <div class="row">
+
+          {{-- Primera columna --}}
           <div class="col-md-6 col-lg-4 item">
             <a href="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-biciletas.jpg" class="item-wrap fancybox mb-4">
               <span class="icon-search2"></span>
@@ -27,6 +29,23 @@
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-logo-camioneta.jpg">
             </a>
+          </div>
+
+          {{-- Segunda columna --}}
+          <div class="col-md-6 col-lg-4 item">
+            <a href="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-mas-biciletas.jpg" class="item-wrap fancybox mb-4">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-mas-biciletas.jpg">
+            </a>
+            <a href="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-punta-del-este-dedos.jpg" class="item-wrap fancybox mb-4">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-punta-del-este-dedos.jpg">
+            </a>
+            <a href="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-tour.jpg" class="item-wrap fancybox mb-4">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="{{url()}}/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-facebook-tour.jpg">
+            </a>
+           
           </div>
           
         </div>
