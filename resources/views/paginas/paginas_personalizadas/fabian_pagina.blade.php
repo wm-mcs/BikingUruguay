@@ -203,13 +203,15 @@
           <h2 class="section-title mb-4">¿Dónde estamos?  </h2>
           
           <p>
-             Hacemos los tours programados en Montevideo y Punta del este.
+             
+             Paquetes especialmente diseñados para turistas. Tours por la Rambla de  <strong>Montevideo</strong>
+ y <strong>Punta del Este</strong>  con guías bilingües y trilingües, tocando puntos históricos y bellos paisajes, en los que se puedan tomar los mejores registros fotográficos de estos lugares.
           </p> 
 
-           <div class="flex-row-center">
-                 <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
+                <div class="flex-row-center">
+                 
                  <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos </a>
-                 <img class="icono-uruguay-home" src="{{url()}}/imagenes/BikeUruguay/Bike-Uruguay-Tours-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
+                
 
                 </div>
 
