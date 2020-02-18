@@ -85,7 +85,7 @@
           <div class="">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="{{url()}}" class="nav-link">Home</a></li>
+                <li><a href="{{url()}}" class="nav-link"> <span class="icon-home"></span></a></li>
                 
                 
               </ul>
@@ -98,7 +98,7 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
-                <li><a href="#sobre-mi" class="nav-link">Sobre mi</a></li>
+                <li><a href="#sobre-mi" class="nav-link">¿Qué hacemos?</a></li>
                 <li><a href="#contact-section" class="nav-link">Contacto</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">Administrar</a></li>
