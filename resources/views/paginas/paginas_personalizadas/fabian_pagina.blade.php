@@ -134,7 +134,7 @@
                 
                 <div class="flex-row-center">
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
-                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos ahora </a>
+                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos </a>
                  <img class="icono-uruguay-home" src="{{url()}}/imagenes/BikeUruguay/Bike-Uruguay-Tours-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
 
                 </div>
@@ -145,7 +145,7 @@
         </div>
       </div>
       
-       <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Software simple de usar para gestionar tu gimnasio, centro de fitness, box de crossfit o entrenamiento funcional"> 
+       <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{url()}}/imagenes/Empresa/home_imagen_queien_soy.jpg{{-- {{$ImagenPortada}} --}}" alt="Software simple de usar para gestionar tu gimnasio, centro de fitness, box de crossfit o entrenamiento funcional"> 
        
 
     </div>  
@@ -208,7 +208,7 @@
           <div class="contiene-texto-imagen-medio-texto mb-4"> Paquetes especialmente diseñados para turistas </div>
           <div class="flex-row-center">
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
-                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos ahora </a>
+                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos</a>
                  <img class="icono-uruguay-home" src="{{url()}}/imagenes/BikeUruguay/Bike-Uruguay-Tours-bandera-uruguay.png" alt="BikingUruguay bandera de Uruguay. Hacemos Bici- Tours guiados en Montevideo y Punta Del Este">
                  <img class="logo-float-easy-socio-portada" src="{{url()}}/imagenes/Empresa/BikeUruguay/logo-bike-uruguay-color-blanco-pgxperience.png" alt="Bikin Uruguay logo. Pg-Xperience logo. Toutrs en bici logo.">
                 </div>
