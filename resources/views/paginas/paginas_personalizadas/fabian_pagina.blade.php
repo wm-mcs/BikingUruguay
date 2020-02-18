@@ -99,6 +99,7 @@
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
                 <li><a href="#sobre-mi" class="nav-link">¿Qué hacemos?</a></li>
+                <li><a href="#donde" class="nav-link">¿Dónde estamos?</a></li>
                 <li><a href="#contact-section" class="nav-link">Contacto</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">Administrar</a></li>
@@ -194,6 +195,39 @@
 
 
     @include('paginas.home.Fotos')
+
+    <div  class="site-section bg-light" id="donde">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-6 order-2 order-lg-1">
+          <h2 class="section-title mb-4">¿Dónde estamos?  </h2>
+          
+          <p>
+             Conjugamos deporte, placer y turismo, formando una ecuación perfecta, destinada al área de servicios turísticos.
+          </p> 
+
+          <p> 
+             Programamos tours por la Rambla de Montevideo y Punta del Este con guías bilingües y trilingües, tocando puntos históricos y bellos paisajes, en los que se puedan tomar los mejores registros fotográficos de estos lugares.
+          </p> 
+
+          <p>
+            También tenemos programas especiales para congresos y ejecutivos que vienen del exterior que quieran realizar una dinámica grupal y diferente para conocer Montevideo y Punta del Este
+          </p>
+
+         
+
+         
+
+
+
+
+          </div>
+          <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
+            <img class="img-fluid mb-4 helper-border-radius-16" src="{{url()}}/imagenes/Empresa/home_imagen_queien_soy.jpg" alt="Soy abogado especializado en desalojo en Uruguay. Me llamo Fabian Delpino y te podré ayudar con tu caso sea cual sea. Experto en desalojo. Inquilinos (alquileres), ocupantes, y mucho más">
+          </div>
+        </div>
+      </div>
+    </div>
 
      
 
