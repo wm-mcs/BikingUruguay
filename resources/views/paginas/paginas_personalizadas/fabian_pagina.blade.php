@@ -129,7 +129,7 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-lg-8">
+              <div class="col-lg-8 contiene-protada-text">
                 <h1 v-if="se_muestra(empresa.home_titulo)" class="text-white">Bike tours programados</h1>
                 <p class="lead">Tours por la Rambla de Montevideo y Punta del Este con guías bilingües y trilingües, tocando puntos históricos y bellos paisajes</p>
                 
@@ -214,6 +214,7 @@
                 
 
                 </div>
+                <br>
 
           
 
@@ -226,7 +227,7 @@
 
           </div>
           <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
-            <img class="img-fluid mb-4 helper-border-radius-16" src="{{url()}}/imagenes/Empresa/home_imagen_queien_soy.jpg" alt="Soy abogado especializado en desalojo en Uruguay. Me llamo Fabian Delpino y te podré ayudar con tu caso sea cual sea. Experto en desalojo. Inquilinos (alquileres), ocupantes, y mucho más">
+            <img class="img-fluid mb-4 helper-border-radius-16" src="{{url()}}/imagenes/BikeUruguay/bike-uruguay-portada-donde-estamos.jpg" alt="Soy abogado especializado en desalojo en Uruguay. Me llamo Fabian Delpino y te podré ayudar con tu caso sea cual sea. Experto en desalojo. Inquilinos (alquileres), ocupantes, y mucho más">
           </div>
         </div>
       </div>
