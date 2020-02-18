@@ -3,7 +3,7 @@
 
 
 
-{{--*/ $ImagenPortada         = url() . '/imagenes/BikeUruguay/bike-uruguay-portada-puerto-de-punta-del-este-y-montevideo-foto-home.jpg'/*--}}
+{{--*/ $ImagenPortada         = url().'/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-foto-de-punta-del-este.jpg' /*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/BikeUruguay/logo-bike-uruguay-color-pgxperience.jpg'/*--}}
 {{--*/ $Titulo                = 'Biking Uruguay | Pg-Xperience | En Montevideo y Punta del este' /*--}} 
 {{--*/ $DescriptionEtiqueta   = 'Nuestro objetivo es promocionar un estilo de vida sano a partir de un deporte fuertemente asociado a nuestra identidad. 
@@ -145,7 +145,7 @@
         </div>
       </div>
       
-       <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{url()}}/imagenes/Empresa/home_imagen_queien_soy.jpg{{-- {{$ImagenPortada}} --}}" alt="Software simple de usar para gestionar tu gimnasio, centro de fitness, box de crossfit o entrenamiento funcional"> 
+       <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Software simple de usar para gestionar tu gimnasio, centro de fitness, box de crossfit o entrenamiento funcional"> 
        
 
     </div>  
@@ -210,7 +210,7 @@
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
                  <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos</a>
                  <img class="icono-uruguay-home" src="{{url()}}/imagenes/BikeUruguay/Bike-Uruguay-Tours-bandera-uruguay.png" alt="BikingUruguay bandera de Uruguay. Hacemos Bici- Tours guiados en Montevideo y Punta Del Este">
-                 <img class="logo-float-easy-socio-portada" src="{{url()}}/imagenes/Empresa/BikeUruguay/logo-bike-uruguay-color-blanco-pgxperience.png" alt="Bikin Uruguay logo. Pg-Xperience logo. Toutrs en bici logo.">
+                 <img class="logo-float-easy-socio-portada" src="{{url()}}/imagenes/paginas_personalizadas/BikeUruguay/logo-bike-uruguay-color-blanco-pgxperience.png" alt="Bikin Uruguay logo. Pg-Xperience logo. Toutrs en bici logo.">
                 </div>
           
         </div>
