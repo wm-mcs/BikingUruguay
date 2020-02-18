@@ -210,7 +210,7 @@
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
                  <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos</a>
                  <img class="icono-uruguay-home" src="{{url()}}/imagenes/BikeUruguay/Bike-Uruguay-Tours-bandera-uruguay.png" alt="BikingUruguay bandera de Uruguay. Hacemos Bici- Tours guiados en Montevideo y Punta Del Este">
-                 <img class="logo-float-easy-socio-portada" src="{{url()}}/imagenes/paginas_personalizadas/BikeUruguay/logo-bike-uruguay-color-blanco-pgxperience.png" alt="Bikin Uruguay logo. Pg-Xperience logo. Toutrs en bici logo.">
+                 <img class="logo-float-easy-socio-portada" src="{{url()}}/imagenes/BikeUruguay/logo-bike-uruguay-color-blanco-pgxperience.png" alt="Biking Uruguay logo. Pg-Xperience logo. Toutrs en bici logo.">
                 </div>
           
         </div>
