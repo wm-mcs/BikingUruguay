@@ -100,6 +100,7 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
                 <li><a href="#sobre-mi" class="nav-link">¿Qué hacemos?</a></li>
                 <li><a href="#donde" class="nav-link">¿Dónde estamos?</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
                 <li><a href="#contact-section" class="nav-link">Contacto</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">Administrar</a></li>
@@ -185,6 +186,99 @@
           <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
             <img class="img-fluid mb-4 helper-border-radius-16" src="{{url()}}/imagenes/Empresa/home_imagen_queien_soy.jpg" alt="Soy abogado especializado en desalojo en Uruguay. Me llamo Fabian Delpino y te podré ayudar con tu caso sea cual sea. Experto en desalojo. Inquilinos (alquileres), ocupantes, y mucho más">
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div  class="site-section " id="servicios">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-6 order-2 order-lg-1">
+          <h2 class="section-title mb-4">Servicios  </h2>
+          
+
+          {{-- Bike torus prgrogramados --}}
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
+            <div class="blog_entry">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/tour.jpg" alt="Image" class="img-de-blog-miniatura">
+              <div class="p-4 bg-white">
+                <h3>Bike torus programados</h3>                
+                <p>
+                  Tours por la Rambla de Montevideo y Punta del Este con guías bilingües y trilingües, tocando puntos históricos y bellos paisajes
+                </p>               
+              </div>
+            </div>
+          </div>
+          {{-- Renta de bici --}}
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
+            <div class="blog_entry">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/renta.jpg" alt="Image" class="img-de-blog-miniatura">
+              <div class="p-4 bg-white">
+                <h3>Rentas de bicicletas</h3>                
+                <p>
+                  Packs de hora
+                </p>               
+              </div>
+            </div>
+          </div>
+          {{-- Escuela de surf --}}
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
+            <div class="blog_entry">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/surf.jpg" alt="Image" class="img-de-blog-miniatura">
+              <div class="p-4 bg-white">
+                <h3>Escuela de surf</h3>                
+                <p>
+                  Escuela de surf
+                </p>               
+              </div>
+            </div>
+          </div>
+          {{-- Paracaidismi --}}
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
+            <div class="blog_entry">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/paracaidismo.jpg" alt="Image" class="img-de-blog-miniatura">
+              <div class="p-4 bg-white">
+                <h3>Para caidismo</h3>                
+                <p>
+                  En Punta del este y Canelones
+                </p>               
+              </div>
+            </div>
+          </div>
+          {{-- Sunboard --}}
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
+            <div class="blog_entry">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/sunboard.jpg" alt="Image" class="img-de-blog-miniatura">
+              <div class="p-4 bg-white">
+                <h3>Sunboard</h3>                
+                <p>
+                  En Punta del este y Canelones
+                </p>               
+              </div>
+            </div>
+          </div>
+          {{-- Sunboard --}}
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
+            <div class="blog_entry">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/running.jpg" alt="Image" class="img-de-blog-miniatura">
+              <div class="p-4 bg-white">
+                <h3>Running</h3>                
+                <p>
+                  En Punta del este y Canelones
+                </p>               
+              </div>
+            </div>
+          </div>
+
+         
+
+         
+
+
+
+
+          </div>
+          
         </div>
       </div>
     </div>
