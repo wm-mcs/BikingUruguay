@@ -206,7 +206,7 @@
               <div class="p-4 bg-white">
                 <h3>Bike torus programados</h3>                
                 <p>
-                  Tours por la Rambla de Montevideo y Punta del Este con guías bilingües y trilingües, tocando puntos históricos y bellos paisajes
+                  Diseñado para turistas. En Montevideo y Punta del Este.
                 </p>               
               </div>
             </div>
@@ -218,7 +218,7 @@
               <div class="p-4 bg-white">
                 <h3>Rentas de bicicletas</h3>                
                 <p>
-                  Packs de hora
+                  Paquetes para cruceros que lleguen al puerto de Montevideo o Punta del Este.
                 </p>               
               </div>
             </div>
@@ -230,11 +230,15 @@
               <div class="p-4 bg-white">
                 <h3>Escuela de surf</h3>                
                 <p>
-                  Escuela de surf
+                  Cursos diseñados para turistas. En Punta del Este.
                 </p>               
               </div>
             </div>
           </div>
+
+        </div>
+
+           <div class="row">
           {{-- Paracaidismi --}}
           <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
             <div class="blog_entry">              
@@ -254,7 +258,7 @@
               <div class="p-4 bg-white">
                 <h3>Sunboard</h3>                
                 <p>
-                  En Punta del este y Canelones
+                  En Punta del este y Rocha
                 </p>               
               </div>
             </div>
@@ -266,7 +270,7 @@
               <div class="p-4 bg-white">
                 <h3>Running</h3>                
                 <p>
-                  En Punta del este y Canelones
+                  En Punta del este y Montevideo.
                 </p>               
               </div>
             </div>
