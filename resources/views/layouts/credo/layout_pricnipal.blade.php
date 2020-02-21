@@ -171,6 +171,9 @@
         @yield('iconos-compartir')
         
       </div>
+      <div class="get_width_100 mt-4 text-center text-muted">
+            <i class="fas fa-code"></i> Desarrollado por <a href="https://mauricio.mwebs.com.uy/"> <strong>Mauricio Costanzo</strong> </a>
+          </div>
     </footer>
 
   </div> 
