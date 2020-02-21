@@ -157,7 +157,7 @@
 
 
 
-  <div  class="site-section bg-light" id="sobre-mi">
+  <div  class="site-section " id="sobre-mi">
       <div class="container">
         <div class="row ">
           <div class="col-lg-6 order-2 order-lg-1">
@@ -191,7 +191,7 @@
     </div>
 
 
-     <section  class="site-section " id="servicios">
+     <section  class="site-section bg-light" id="servicios">
       <div class="container">
         <div class="row">
           
@@ -237,7 +237,7 @@
           </div>
 
         </div>
-
+<br>
            <div class="row">
           {{-- Paracaidismi --}}
           <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
