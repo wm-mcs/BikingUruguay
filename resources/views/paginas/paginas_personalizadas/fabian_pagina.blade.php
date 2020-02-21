@@ -244,7 +244,7 @@
             <div class="blog_entry">              
               <img src="{{url()}}/imagenes/BikeUruguay/Servicios/paracaidismo.jpg" alt="Image" class="img-de-blog-miniatura">
               <div class="p-4 bg-white">
-                <h3>Para caidismo</h3>                
+                <h3>Paracaidismo</h3>                
                 <p>
                   En Punta del este y Canelones
                 </p>               
