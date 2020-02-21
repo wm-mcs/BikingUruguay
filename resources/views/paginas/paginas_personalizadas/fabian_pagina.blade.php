@@ -190,14 +190,16 @@
       </div>
     </div>
 
-    <div  class="site-section " id="servicios">
-      <div class="container">
-        <div class="row ">
-          <div class="col-lg-6 order-2 order-lg-1">
-          <h2 class="section-title mb-4">Servicios  </h2>
-          
 
-          {{-- Bike torus prgrogramados --}}
+     <section  class="site-section " id="servicios">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center mb-5">Servicios</h2>
+          </div>
+
+            {{-- Bike torus prgrogramados --}}
           <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
             <div class="blog_entry">              
               <img src="{{url()}}/imagenes/BikeUruguay/Servicios/tour.jpg" alt="Image" class="img-de-blog-miniatura">
@@ -270,18 +272,15 @@
             </div>
           </div>
 
-         
-
-         
-
-
-
-
-          </div>
           
+
+           
+
         </div>
       </div>
-    </div>
+    </section>
+
+   
 
 
 
