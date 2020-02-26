@@ -3,7 +3,7 @@
 
 
 
-{{--*/ $ImagenPortada         = url().'/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-foto-de-punta-del-este.jpg' /*--}}
+{{--*/ $ImagenPortada         = url().'/imagenes/BikeUruguay/biking-urguay-tour-portada-quienes-somos.jpg' /*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/BikeUruguay/logo-bike-uruguay-color-pgxperience.jpg'/*--}}
 {{--*/ $Titulo                = 'Biking Uruguay | Pg-Xperience | En Montevideo y Punta del este' /*--}} 
 {{--*/ $DescriptionEtiqueta   = 'Nuestro objetivo es promocionar un estilo de vida sano a partir de un deporte fuertemente asociado a nuestra identidad. 
@@ -168,11 +168,11 @@
           </p> 
 
           <p> 
-             Programamos tours por la Rambla de Montevideo y Punta del Este con guías bilingües y trilingües, tocando puntos históricos y bellos paisajes, en los que se puedan tomar los mejores registros fotográficos de estos lugares.
+             <strong>Programamos tours</strong>  por la Rambla de Montevideo y Punta del Este con <strong>guías bilingües y trilingües</strong> , tocando puntos históricos y bellos paisajes, en los que se puedan tomar los mejores registros fotográficos de estos lugares.
           </p> 
 
           <p>
-            También tenemos programas especiales para congresos y ejecutivos que vienen del exterior que quieran realizar una dinámica grupal y diferente para conocer Montevideo y Punta del Este
+            También tenemos <strong>programas especiales para congresos y ejecutivos que vienen del exterior</strong>  que quieran realizar una dinámica grupal y diferente para conocer Montevideo y Punta del Este
           </p>
 
          
@@ -246,7 +246,7 @@
               <div class="p-4 bg-white">
                 <h3>Paracaidismo</h3>                
                 <p>
-                  En Punta del este y Canelones
+                  En Punta del Este y Canelones
                 </p>               
               </div>
             </div>
@@ -258,7 +258,7 @@
               <div class="p-4 bg-white">
                 <h3>Sunboard</h3>                
                 <p>
-                  En Punta del este y Rocha
+                  En Punta del Este y Rocha
                 </p>               
               </div>
             </div>
@@ -270,7 +270,7 @@
               <div class="p-4 bg-white">
                 <h3>Running</h3>                
                 <p>
-                  En Punta del este y Montevideo.
+                  En Punta del Este y Montevideo.
                 </p>               
               </div>
             </div>
