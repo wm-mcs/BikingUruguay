@@ -204,7 +204,7 @@
             <div class="blog_entry">              
               <img src="{{url()}}/imagenes/BikeUruguay/Servicios/tour.jpg" alt="Image" class="img-de-blog-miniatura">
               <div class="p-4 bg-white">
-                <h3>Bike torus programados</h3>                
+                <h3>Bike tours programados</h3>                
                 <p>
                   Diseñado para turistas. En Montevideo y Punta del Este.
                 </p>               
