@@ -14,7 +14,7 @@
 
 
 @section('favicon')
-<link rel="shortcut icon" href="{{ asset('imagenes/favicon-easy.ico') }}"> 
+<link rel="shortcut icon" href="{{ asset('imagenes/favicon.ico') }}"> 
 @stop
 
 @section('og-tags')
