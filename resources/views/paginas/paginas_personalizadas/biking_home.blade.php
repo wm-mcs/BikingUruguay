@@ -103,13 +103,13 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-5 col-lg-6 p-4 background-black-transparent" >
-                <h1  class="titulos-class text-white font-secondary">Toma las riendas de tu vida</h1>
+                <h1  class="titulos-class text-white font-secondary">Bike tours programados</h1>
                 
-                <p class="parrafo-class text-white"> Mejora tus conflictos emocionales, miedos, autoestima e inseguridad.</p>
+                <p class="parrafo-class text-white">Tours por la Rambla de Montevideo y Punta del Este con guías bilingües y trilingües.</p>
                
                 
            
-                <p><a href="#sobre-mi" class="Boton-Fuente-Chico Boton-Blanco"> Aprende como ahora mismo <i class="fas fa-chevron-right"></i> </a></p>
+                <p><a href="#empatizar" class="Boton-Fuente-Chico Boton-Blanco"> Conocer nuestros servicios <i class="fas fa-chevron-right"></i> </a></p>
               </div>
             </div>
           </div>
@@ -129,16 +129,16 @@
 @section('contenido')
 
   
-      <div class="site-section background-gris-1">
+      <div class="site-section background-gris-1" id="empatizar">
         <div class="container">
           
           <h3 class="sub-titulos-class text-center text-color-primary font-italic mb-3">
-            "Ama la vida que tienes para poder vivir la vida que amas".
+            Organizá una bike tour con nosotros y sorprendé a tus clientes o invitados.  
           </h3>    
 
 
           <p class="text-center text-color-primary m-0">            
-            Confío en cada uno <strong>puede llegar a ser la mejor versión de sí mismo</strong>. Estoy aquí para enseñarte a tomar las riendas de tu vida. 
+            Hacé que vivan una experiencia inolvidable y dales la oportunidad de concoer los puntos más hermoso de Montevideo y Punta Del Este.
           </p>   
           
         </div>
