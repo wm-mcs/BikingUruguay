@@ -17,9 +17,7 @@
             
 
              
-               <p class="contiene-p-linea">
-                 <a class="contiene-link-linea" href="{{route('get_pagina_contacto')}}" >Contacto</a>
-               </p >
+              
                 
 
                @if(Auth::guest())
@@ -57,9 +55,7 @@
               <p class="contiene-p-linea" v-if="se_muestra(empresa.horarios)"  > 
                  <i class="far fa-clock mr-2 color-iconos-footer"></i>          @{{empresa.horarios}}
               </p>
-              <p class="contiene-p-linea" v-if="se_muestra(empresa.email)" >    
-                 <a class="contiene-link-linea" href="{{route('get_pagina_contacto')}}"><i class="far fa-envelope color-iconos-footer mr-2"></i>       @{{empresa.email}}</a> 
-              </p>
+             
             
           </div> 
         
