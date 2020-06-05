@@ -83,7 +83,7 @@
           </div>
 
           
-          <p class="color-text-gris mb-2 mt-4 col-12 text-center">Por más información contactanos y te responderemos bien rápidp y con lujo de detalles.</p>
+          <p class="color-text-gris mb-2 mt-4 col-12 text-center">Por más información contactanos. Te responderemos  rápido y con lujo de detalles.</p>
 
            
           <p ><a href="#empatizar" class="Boton-Fuente-Chico Boton-Blanco"> Contactar ahora  <i class="fas fa-chevron-right"></i> </a></p>
