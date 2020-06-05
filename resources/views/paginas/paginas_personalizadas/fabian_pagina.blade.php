@@ -199,36 +199,36 @@
           </div>
 
             {{-- Bike torus prgrogramados --}}
-          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
-            <div class="blog_entry">              
-              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/tour.jpg" alt="Image" class="img-de-blog-miniatura">
-              <div class="p-4 bg-white">
-                <h3>Bike tours programados</h3>                
-                <p>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="servicio_lista service">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/tour.jpg" alt="Image" class="servicio_lista_imagen">
+              <div class="p-3 mt-2">
+                <h3 class="sub-titulos-class  text-color-primary  mb-2">Bike tours programados</h3>                
+                <p class="color-text-gris mb-2">
                   Diseñado para turistas. En Montevideo y Punta del Este.
                 </p>               
               </div>
             </div>
           </div>
           {{-- Renta de bici --}}
-          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
-            <div class="blog_entry">              
-              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/renta.jpg" alt="Image" class="img-de-blog-miniatura">
-              <div class="p-4 bg-white">
-                <h3>Rentas de bicicletas</h3>                
-                <p>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="servicio_lista service">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/renta.jpg" alt="Image" class="servicio_lista_imagen">
+              <div class="p-3 mt-2">
+                <h3 class="sub-titulos-class  text-color-primary  mb-2" >Rentas de bicicletas</h3>                
+                <p class="color-text-gris mb-2" >
                   Paquetes para cruceros que lleguen al puerto de Montevideo o Punta del Este.
                 </p>               
               </div>
             </div>
           </div>
           {{-- Escuela de surf --}}
-          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
-            <div class="blog_entry">              
-              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/surf.jpg" alt="Image" class="img-de-blog-miniatura">
-              <div class="p-4 bg-white">
-                <h3>Escuela de surf</h3>                
-                <p>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="servicio_lista service">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/surf.jpg" alt="Image" class="servicio_lista_imagen">
+              <div class="p-3 mt-2">
+                <h3 class="sub-titulos-class  text-color-primary  mb-2">Escuela de surf</h3>                
+                <p class="color-text-gris mb-2">
                   Cursos diseñados para turistas. En Punta del Este.
                 </p>               
               </div>
@@ -236,39 +236,38 @@
           </div>
 
         </div>
-<br>
-           <div class="row">
+
           {{-- Paracaidismi --}}
-          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
-            <div class="blog_entry">              
-              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/paracaidismo.jpg" alt="Image" class="img-de-blog-miniatura">
-              <div class="p-4 bg-white">
-                <h3>Paracaidismo</h3>                
-                <p>
+          <div class="ccol-md-6 col-lg-4 mb-4">
+            <div class="servicio_lista service">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/paracaidismo.jpg" alt="Image" class="servicio_lista_imagen">
+              <div class="p-3 mt-2">
+                <h3 class="sub-titulos-class  text-color-primary  mb-2">Paracaidismo</h3>                
+                <p class="color-text-gris mb-2">
                   En Punta del Este y Canelones
                 </p>               
               </div>
             </div>
           </div>
           {{-- Sunboard --}}
-          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
-            <div class="blog_entry">              
-              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/sunboard.jpg" alt="Image" class="img-de-blog-miniatura">
-              <div class="p-4 bg-white">
-                <h3>Sunboard</h3>                
-                <p>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="servicio_lista service">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/sunboard.jpg" alt="Image" class="iservicio_lista_imagen">
+              <div class="p-3 mt-2">
+                <h3 class="sub-titulos-class  text-color-primary  mb-2">Sunboard</h3>                
+                <p class="color-text-gris mb-2">
                   En Punta del Este y Rocha
                 </p>               
               </div>
             </div>
           </div>
           {{-- Sunboard --}}
-          <div class="col-md-6 mb-5 mb-lg-0 col-lg-4">
-            <div class="blog_entry">              
-              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/running.jpg" alt="Image" class="img-de-blog-miniatura">
-              <div class="p-4 bg-white">
-                <h3>Running</h3>                
-                <p>
+          <div class="ccol-md-6 col-lg-4 mb-4">
+            <div class="servicio_lista service">              
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/running.jpg" alt="Image" class="servicio_lista_imagen">
+              <div class="p-3 mt-2">
+                <h3 class="sub-titulos-class  text-color-primary  mb-2">Running</h3>                
+                <p class="color-text-gris mb-2">
                   En Punta del Este y Montevideo.
                 </p>               
               </div>
@@ -279,7 +278,7 @@
 
            
 
-        </div>
+        
       </div>
     </section>
 

@@ -138,7 +138,7 @@
 
 
           <p class="text-center text-color-primary m-0">            
-            Hacé que vivan una experiencia inolvidable y dales la oportunidad de concoer los puntos más hermoso de Montevideo y Punta Del Este.
+            Hacé que vivan una experiencia inolvidable y dales la oportunidad de concoer los puntos más hermosos de Montevideo y Punta Del Este.
           </p>   
           
         </div>
@@ -148,7 +148,8 @@
     
 
      
-
+      {{-- S e r v i c i o s  --}}
+      @include('paginas.paginas_personalizadas.home_servicios')
 
       
 
