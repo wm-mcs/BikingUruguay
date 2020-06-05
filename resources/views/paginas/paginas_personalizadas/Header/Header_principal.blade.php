@@ -30,7 +30,7 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
                 <li><a href="#sobre-mi" class="nav-link text-uppercase">¿Qué hacemos?</a></li>                
                 <li><a href="#servicios" class="nav-link text-uppercase">Servicios</a></li>
-                <li><a href="#contact-section" class="nav-link text-uppercase">Contacto</a></li>
+                <li><a href="#contacto_home" class="nav-link text-uppercase">Contacto</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="text-uppercase">Administrar</a></li>
                   <li><a href="{{route('logout')}}" class="text-uppercase">Salir</a></li>
