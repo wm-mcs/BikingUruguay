@@ -98,8 +98,7 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
-                <li><a href="#sobre-mi" class="nav-link">¿Qué hacemos?</a></li>
-                <li><a href="#donde" class="nav-link">¿Dónde estamos?</a></li>
+                <li><a href="#sobre-mi" class="nav-link">¿Qué hacemos?</a></li>                
                 <li><a href="#servicios" class="nav-link">Servicios</a></li>
                 <li><a href="#contact-section" class="nav-link">Contacto</a></li>
                 @if(!Auth::guest())
