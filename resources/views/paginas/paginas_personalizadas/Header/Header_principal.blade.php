@@ -7,9 +7,13 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto ">
                 <li>
-                  <a  href="{{url()}}" > 
-                    <img class="logo-nav" v-if="scrolled > 0" src="{{url()}}/imagenes/BikeUruguay/logo-bike-uruguay-color-pgxperience.png">  
-                    <img class="logo-nav" v-else src="{{url()}}/imagenes/BikeUruguay/logo-bike-uruguay-color-blanco-pgxperience.png">              
+                  <a  href="{{url()}}" class="logo-nav">                    
+                    <span class="text-color-primary" v-if="scrolled > 0">Pg X-perience</span>
+                    <span class="" v-else> Pg X-perience </span>      
+
+                
+                
+
                   </a>
                 </li>
                 
