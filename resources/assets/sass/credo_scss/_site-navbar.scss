@@ -1,4 +1,20 @@
 
+/* L a   n a v   e n   p o s i c i ó n   e s t a n d a r */
+$Background-normal:rgba($color-black,.2) ; 
+$fuente-normal-color: darken($color-white,5%);
+$fuente-normal-color-hover: $color-white;
+$icon-menu-color:$fuente-normal-color;
+$logo-color:darken($color-white,5%);
+$logo-color-hover:$color-white;
+
+
+/* L a   n a v   a l   s c r o l l e a r  */
+$Background-scroll: $color-white ; 
+$fuente-scroll-color: $color-black;
+$fuente-scroll-color-hover: $primary;
+$icon-menu-scroll-color: $fuente-scroll-color;
+$logo-color-scroll:$color-black;
+$logo-color-scroll-hover:$fuente-scroll-color;
 
 
 .site-navbar {
@@ -7,10 +23,8 @@
 	z-index: 1999;
 	position: absolute;
 	top: 0;
-	width: 100%;
-	// background: $white;
-	
-	border-bottom: rgba($white,.7);
+	width: 100%;	
+	border-bottom: rgba($color-white,.7);
 	.site-logo {
 		font-size: 1.5rem;
 	}
@@ -27,6 +41,7 @@
 				display: inline-block;
 				position: relative;
 				padding: 5px 20px;
+				font-weight: normal !important;
 				
 			}
 			> li, div {
@@ -36,13 +51,15 @@
 					display: inline-block;
 					text-decoration: none!important;
 
-					color: rgba($white, .7)!important;
+					color: rgba($color-white, .7)!important;
 					&:hover, &.active {
-						color: $white!important;
+						color: $color-white!important;
+						font-weight: bold ;
 					}
 					
 					&:hover {
 						color: $primary;
+						font-weight: bold;
 						
 					}
 				}
@@ -91,7 +108,7 @@
 						}
 						&:before {
 							border-color: rgba(136, 183, 213, 0);
-							border-bottom-color: $white;
+							border-bottom-color: $color-white;
 							border-width: 10px;
 							margin-left: -10px;
 						}	
@@ -167,8 +184,7 @@
 }
 
 
-// mobile menu
-
+// M o b i l 
 .site-mobile-menu {
 	width: 300px;
 	position: fixed;
@@ -352,6 +368,7 @@
 	position: absolute;
 	z-index: 100;
 	width: 100%;
+	background-color:$Background-normal;
 	& + .site-blocks-cover {
 		// margin-top: 140px;
 		// margin-top: 96px;
@@ -364,20 +381,20 @@
 		.site-menu-toggle {
 			color: $white;
 			.icon-menu {
-				color: $white;
+				color: $icon-menu-color;
 			}
 		}
 		.site-logo {
 			a {
-				color: $white;
+				color:$logo-color;
 			}
 		}
 		.site-menu {
 			> li {
 				> a {
-					color: rgba($white, .7)!important;
+					color: $fuente-normal-color  !important;
 					&:hover, &.active {
-						color: $white!important;
+						color: $fuente-normal-color-hover  !important;
 					}
 				}
 			}
@@ -386,26 +403,26 @@
 	&.is-sticky {
 		
 		.site-navbar {
-			background: $white;
+			background: $Background-scroll;
 			border-bottom: 1px solid transparent;
 			box-shadow: 4px 0 20px -5px rgba(0,0,0,.1);
 			.site-menu-toggle {
 				color: $black;
 				.icon-menu {
-					color: $black;
+					color: $icon-menu-scroll-color;
 				}
 			}
 			.site-logo {
 				a {
-					color: $black;
+					color:$logo-color-scroll;
 				}
 			}
 			.site-menu {
 				> li {
 					> a {
-						color: $black!important;
+						color: $fuente-scroll-color!important;
 						&:hover, &.active {
-							color: $primary!important;
+							color:$fuente-scroll-color-hover !important;
 						}
 					}
 				}

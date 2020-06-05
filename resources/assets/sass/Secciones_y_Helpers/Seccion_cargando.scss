@@ -1,4 +1,4 @@
-//asdasd
+//
 .contiene-cargador{
 	width:100vw;
 	height:100vh;
@@ -66,3 +66,7 @@
 	100% { -moz-transform: scale(1); transform: scale(1); }
 }
 
+
+.cargador_white{
+	border-color:$color-white !important;
+}

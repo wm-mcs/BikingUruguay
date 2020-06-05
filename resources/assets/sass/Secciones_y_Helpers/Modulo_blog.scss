@@ -6,26 +6,13 @@
 }
 
 
-   .noticia-lista-show-img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius:8px;
-    padding: 4px;
-   }
-
-   .noticia-lista-show-titulo{
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 8px;
-    width: 90%;
-   }
 
 
 
 
 
-//listado individual asociado noticias_lista_individual.blade.php
+
+
 .conenedor-maximo-blog{
   width: 100%;
   padding: 15px 15px;
@@ -35,7 +22,7 @@
   background-color: #f8f9fa;
 }
 
-  .contenedor-blog{
+  .contenedor-blog {
     @include flexbox;       
     @include flex-direction(column);
     @include align-items(center); 
@@ -43,137 +30,75 @@
     border: 1px solid #eee;
     background-color:white ;
     padding: 1.5rem!important;
-    
+    margin-bottom: 30px;    
   }
 
-.post-preview{
- width: 100%;
- padding:8px;
- border-radius:4px;
- cursor:pointer;
-
-}
-
-.post-preview:hover{
- background-color:$color-grey0 ;
-
-}
-
-
-
-
-
-
-
-.Slider-Contendor{
-    position: absolute;
-    right: 15%;
-    bottom: 0px;
-    left: 15%;
-    z-index: 10;
-    /* padding-top: 20px; */
-    /* padding-bottom: 20px; */
-    color: #fff;
-    text-align: center;
-}
-
-.Slider_cabecera_caption_titulo{
-  font-size: 2rem;
-}
-
-.Slider_cabecera_caption_sub_titulo{
-  font-size: 1rem;
-}  
-
-.Slider_cabecera_caption_logo{
-  position:absolute; 
-  right: 5%; 
-  bottom: 5%; 
-  height: 50px;
-  width:auto;
-  display:none;
-}
-
-.Slider_cabecera_boton_contacto{
-  font-size:1rem ;
-  padding: 1rem 2rem;
-}
-
-.Slider_cabecer_img{
   
-}
+
+  .wraper-secciones-blog-titulo-content{
+    width:98%;
+    @include flexbox;       
+    @include flex-direction(column);
+    @include align-items(flex-start);
+  }
+
+   .contiene-otras-secciones-del-blog{
+    @include flexbox;       
+    @include flex-direction(column);
+    @include align-items(center); 
+    width:100%;
+    border: 1px solid #eee;
+    background-color:$color-white ;
+    padding: 1.5rem!important;
+    margin-bottom: 30px;    
+  }
+
+    .wrpaer-titulo-de-seccion{
+      @include Parrafo_Titulo_Style;
+      margin-bottom: 7px;      
+      font-weight: bold;
+      color:$color-black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .img-slider-size{
   display: block;
   width: 100vw;
-  height: 100vh;
+  height: 350px;
   object-fit: cover;
 }
 
-.img-de-blog-miniatura{
-  
+.img-de-blog-miniatura{  
     width: 100%;
     height: 200px;
     object-fit: cover;
     display: block;
+}
 
+/* Es la miniatura de la imagen */
+.servicio_lista_imagen {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px 8px 0 0;
 }
 
 
 
 
-@media (min-width: $BrackPoint-Primario){
 
-.Slider_cabecera_caption_logo{  
-  height: 60px;  
-  display:block;
-}
-
-.Slider_cabecer_img , .no_mostrar_en_small{
-  display:block;
-}
-
-.Slider_cabecer_img_responsive,.mostrar_en_small{
- display:none;
-}
-
-.Slider_cabecera_boton_contacto{
-  font-size:1rem ;
-  padding: 1rem 2rem;
-}
-
-   
-}
-
-@media (min-width: $BrackPoint-Secundario){
-.Slider_cabecera_caption_titulo{
-  font-size: 3rem;
-}
-
-.Slider_cabecera_caption_sub_titulo{
-  font-size: 2rem;
-}
-
-.Slider_cabecera_caption_logo{  
-  height: 70px;  
-}
-
-
-
- 
-
-  
-}
-
-@media (min-width: $BrackPoint-Tercer){
-
-.contiene-noticia-lista-show{
-  width:25%;
-  
-}
-
-  
-}
 
 
 .post-img-principal{
@@ -183,30 +108,7 @@
 
 }
 
-.post-h1{
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  color:black;
-  font-weight: 900;
 
-}
-
-.post-title{
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  color:black;
-  font-weight: 900;
-
-}
-
-.post-subtitle{
-  font-weight: 300;
-  margin: 0 0 10px;
-  font-size: 24px;
-  color:black;
-}
 
 
 
@@ -229,74 +131,97 @@
 }
 
 
-//pagina-de-post-individual
 
-//clase que ajuste el tamañao de la imagen
+
+/*  C l a s e s   d e l   b l o g  */
+
 .post-img-slider-size{
     display: block;
     width: 100vw;
-    height: 100vh;
+    height: 400px;
     object-fit: cover;
  }
 
 
  .post-individual-p{
-    line-height: 1.5;
-    margin: 30px 0;
-    font-size: 20px;
+    @include Parrafo_Style;
+    margin-bottom: 20px;   
+    width: 100%;    
+    color:$color-grey2;
  }
 
 
 
  .post-individual-section-titulo{
-   font-size: 36px;
-   font-weight: 700;
-   margin-top: 60px;
-   margin-bottom: 35px;
-   width: 100%;
-   text-align: left;
+  @include Parrafo_Titulo_Style;
+  margin-bottom: 20px;
+  font-size: 24px !important;
+  color:$color-3;  
+  width: 100%;
+  font-weight: bold;
+  text-align: left;
+   
 
  }
 
  .post-individual-section-h1{
-   font-size: 36px;
-   font-weight: 700;
+  @include Parrafo_Titulo_Style; 
+  font-size: 36px !important; 
+  color:$color-3;  
+  width: 100%;
    margin-top: 60px;
    margin-bottom: 20px;
+   width: 100%;
+   text-align: center;
+   font-weight: bold;
  }
 
 
 .post-individual-section-sub-titulo{
-  font-size: 24px;
-  margin-bottom: 30px;
-  font-weight: 700;
+  @include Parrafo_Titulo_Style;
+  font-size: 22px;
+  margin-bottom: 20px; 
+  color:black;
+  width: 100%;
+  font-weight: bold;
   
 }
 
 .post-individual-section-mensaje-box{
   margin-bottom: 30px;
-  padding:10px;
-  border-radius:6px;
+  padding:10px;  
   background-color: $Color-Gris-Claro;
   font-size: 14px;
   letter-spacing: 2px;  
+  font-family:$font-secondary;
 } 
 
 
 .post-individual-section-ul{
-  padding:8px;
-  list-style-type: square;
+  padding:20px 20px 20px 40px;
+  list-style-type: none;
+  width: 100%;
 }
 
 .post-individual-section-li{
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 4px;
+  @include Parrafo_Style;
+  color:$color-grey2;
+  margin-bottom: 20px;
+  width: 100%;
+} 
+.post-individual-section-li::before{
+    content: "\025cf";    
+    color:$color-3;  
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
 }
 
 
  .post-img-secundarias{
   max-width: 100%;
+  margin-bottom: 10px;
   height:auto;
  }
 
@@ -310,6 +235,7 @@
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     color:$Color-texto-gris-Mercadolibre;
+    margin-bottom: 20px;
  }
 
 
@@ -348,12 +274,11 @@ height: 100%;
     width: 80%;
   }
 
-  .contenedor-blog{
-    
-    width:70%;
-    
-    
+  .contenedor-blog,  .wraper-secciones-blog-titulo-content{
+    width:65%;
   }
+
+  
 
   
 
@@ -385,7 +310,5 @@ height: 100%;
     width: 65%;
   }
 
-  .post-title{
-    font-size: 36px;
-  }
+  
 }

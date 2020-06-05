@@ -1,12 +1,29 @@
-.logo-float-easy-socio-portada{
-  display: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .logo-float-easy-socio-portada{
+  height: 60px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%; 
+  display: block;
 }
 
-.contiene-protada-text{
-  background-color: rgba(18,17,17,0.39);
-  padding: 10px;
-  border-radius:6px;
-}
 .imagen-medio-de-web{
   display: block;
   width: 100vw;
@@ -58,13 +75,7 @@
 
 
 @media (min-width: $BrackPoint-Secundario){
-  .logo-float-easy-socio-portada{
-      height: 80px;
-    position: absolute;
-    
-    right: -140px;
-    display: block;
-}
+ 
 
 
 }
@@ -72,9 +83,8 @@
 @media (min-width: $BrackPoint-Tercer){
 
 .logo-float-easy-socio-portada{
-    height: 120px;
-    right: -140px;
-    bottom: 10px;
+  height: 80px;
+  
   
 }
 
