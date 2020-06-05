@@ -60,7 +60,7 @@
           {{-- Sunboard --}}
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="servicio_lista service">              
-              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/sunboard.jpg" alt="Image" class="iservicio_lista_imagen">
+              <img src="{{url()}}/imagenes/BikeUruguay/Servicios/sunboard.jpg" alt="Image" class="servicio_lista_imagen">
               <div class="p-3 mt-2">
                 <h3 class="sub-titulos-class  text-color-primary  mb-2">Sunboard</h3>                
                 <p class="color-text-gris mb-2">
