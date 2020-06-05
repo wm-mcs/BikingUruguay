@@ -40,7 +40,7 @@ class Home_Public_Controller extends Controller
         $blogs          = /*$this->NoticiasRepo->getUltimosBlogs();*/[];
         
 
-        return view('paginas.paginas_personalizadas.fabian_pagina', compact('Empresa','blogs'));
+        return view('paginas.paginas_personalizadas.biking_home', compact('Empresa','blogs'));
     }
 
 
