@@ -1,6 +1,6 @@
 <div  class="p-5 background_img img_contacto-home  d-flex flex-row align-items-center justify-content-center" id="contacto_home">
   <div class="container">
-    <div class="row align-items-center justify-content-center justify-content-lg-start">
+    <div class="row align-items-center justify-content-center {{-- justify-content-lg-start --}}">
       <div class="col-lg-6">
         <div class="container">
           <div class="row justify-content-center">
