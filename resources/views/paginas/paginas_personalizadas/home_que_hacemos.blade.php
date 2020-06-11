@@ -4,7 +4,7 @@
              <h3 class="col-12 sub-titulos-class text-center text-color-primary  mb-5">
                 Somos la extensión de actividades que necesita tu empresa de turismo.
              </h3>    
-             <div class="col-10 pl-4">
+             <div class="col-10 pl-4 mb-4">
                 <p class="lista-class mb-3">
                    Conjugamos deporte, placer y turismo, formando una ecuación perfecta, destinada al área de servicios turísticos.
                 </p> 
