@@ -8,7 +8,7 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto ">
                 <li>
                   <a  href="{{url()}}" class="logo-nav">                    
-                    <span class="text-color-primary" v-if="scrolled > 0">Pg X-perience</span>
+                    <span class="text-color-primary" v-if="scrolled > 0">PG X-perience</span>
                     <span class="" v-else> PG X-perience </span>      
 
                 
