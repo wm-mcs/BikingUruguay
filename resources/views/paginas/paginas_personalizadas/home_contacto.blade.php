@@ -3,12 +3,14 @@
     <div class="row align-items-center justify-content-center justify-content-lg-start">
       <div class="col-lg-6">
         <div class="container">
-          <div class="row">
+          <div class="row justify-content-center">
             <h3 class="col-12 titulos-class text-color-primary mb-3 text-center">Contáctate ahora</h3>
             <p class="col-12 text-color-primary parrafo-class mb-4 text-center">Para contactarte rellenar el formulario de aquí abajo. O llamá al <i class="fas fa-mobile-alt"></i> @{{empresa.celular}}. Paolo es un gurú de la atención comercial y el está listo para atenderte. </p>
-            <div class="col-6 col-lg-3 p-5 mb-3">
+
+            <div class="col-6 col-lg-5 p-5 mb-3">
              <img src="{{url()}}/imagenes/team/paolo-biking-uruguay-perfil-atencion.jpg" class="img-fluid p5 rounded-circle ">
             </div>
+            
           </div>
         </div>
         <contacto-component :empresa="empresa" :color="variables.input_color_primary" inline-template>
