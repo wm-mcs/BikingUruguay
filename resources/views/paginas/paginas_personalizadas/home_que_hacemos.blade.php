@@ -1,7 +1,7 @@
      <div class="site-section background-white" id="que_hacemos">
         <div class="container">          
           <div class="row justify-content-center">          
-             <h3 class="sub-titulos-class text-center text-color-primary  mb-5">
+             <h3 class="col-12 sub-titulos-class text-center text-color-primary  mb-5">
                 Somos la extensión de actividades que necesita tu empresa de turismo.
              </h3>    
              <div class="col-10 pl-4">
@@ -18,7 +18,9 @@
                 </p>
              </div> 
 
-             <a href="#contacto_home" class="Boton-Fuente-Chica Boton-Primario-Relleno"> Pedir más información <i class="fas fa-angle-double-right"></i></a>
+             <p class="col-12">
+              <a href="#contacto_home" class="Boton-Fuente-Chica Boton-Primario-Relleno"> Pedir más información <i class="fas fa-angle-double-right"></i></a>
+             </p>
 
 
           </div> 

@@ -25,7 +25,7 @@
               <div class="p-3 mt-2">
                 <h3 class="sub-titulos-class  text-color-primary  mb-2" >Rentas de bicicletas</h3>                
                 <p class="color-text-gris mb-2" >
-                  Paquetes para cruceros que lleguen al puerto de Montevideo o Punta del Este.
+                  Paquetes para cruceros que lleguen al puerto de Punta del Este.
                 </p>               
               </div>
             </div>
@@ -52,7 +52,7 @@
               <div class="p-3 mt-2">
                 <h3 class="sub-titulos-class  text-color-primary  mb-2">Paracaidismo</h3>                
                 <p class="color-text-gris mb-2">
-                  En Punta del Este y Canelones
+                  En Punta del Este y Canelones.
                 </p>               
               </div>
             </div>
@@ -64,7 +64,7 @@
               <div class="p-3 mt-2">
                 <h3 class="sub-titulos-class  text-color-primary  mb-2">Sunboard</h3>                
                 <p class="color-text-gris mb-2">
-                  En Punta del Este y Rocha
+                  En Punta del Este y Rocha.
                 </p>               
               </div>
             </div>
