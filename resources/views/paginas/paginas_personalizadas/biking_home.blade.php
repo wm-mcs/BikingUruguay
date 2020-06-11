@@ -102,7 +102,7 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-10 col-lg-6 p-3 p-lg-5 " >
+              <div class="col-10 col-lg-6 p-3 p-lg-5 background-black-transparent " >
                 <h1  class="titulos-class text-white font-secondary">Bike tours </h1>
                 
                 <p class="parrafo-class text-white">Tours programados por la Rambla de Montevideo y Punta del Este con guías bilingües y trilingües.</p>
