@@ -109,7 +109,7 @@
                
                 
            
-                <p><a href="#empatizar" class="Boton-Fuente-Chico Boton-Blanco"> Conocer nuestros servicios <i class="fas fa-chevron-right"></i> </a></p>
+                <p><a href="#empatizar" class="scroll_to Boton-Fuente-Chico Boton-Blanco"> Conocer nuestros servicios <i class="fas fa-chevron-right"></i> </a></p>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@
         <div class="container">
           
           <h3 class="sub-titulos-class text-center text-color-primary font-italic mb-3">
-            Organizá una bike tour con nosotros y sorprendé a tus clientes o invitados.  
+            Organizá un bike tour y sorprendé a tus clientes o invitados.  
           </h3>    
 
 
