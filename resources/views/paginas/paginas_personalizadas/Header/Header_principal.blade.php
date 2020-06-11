@@ -9,7 +9,7 @@
                 <li>
                   <a  href="{{url()}}" class="logo-nav">                    
                     <span class="text-color-primary" v-if="scrolled > 0">Pg X-perience</span>
-                    <span class="" v-else> Pg X-perience </span>      
+                    <span class="" v-else> PG X-perience </span>      
 
                 
                 
