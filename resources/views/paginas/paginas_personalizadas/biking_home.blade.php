@@ -106,10 +106,8 @@
                 <h1  class="titulos-class text-white font-secondary">Bike tours </h1>
                 
                 <p class="parrafo-class text-white">Tours programados por la Rambla de Montevideo y Punta del Este con guías bilingües y trilingües.</p>
-               
-                
            
-                <p><a href="#empatizar" class="scroll_to Boton-Fuente-Chico Boton-Blanco"> Conocer nuestros servicios <i class="fas fa-chevron-right"></i> </a></p>
+                <p><a href="#empatizar" class="scroll_to Boton-Fuente-Chico Boton-Blanco"> Explorar nuestros servicios <i class="fas fa-angle-double-right"></i></a></p>
               </div>
             </div>
           </div>
@@ -117,7 +115,6 @@
       </div>
       
        <img class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Laura Jodral portada."> 
-       {{-- <img class="logo-float-easy-socio-portada" :src="empresa.logo_easy_blanco" alt="Easysocio ptograma de gestion de gimasios y academias simple de usar."> --}}
        
 
     </div>  
@@ -127,56 +124,31 @@
 @stop
 
 @section('contenido')
-
   
       <div class="site-section background-gris-1" id="empatizar">
-        <div class="container">
-          
+        <div class="container">          
           <h3 class="sub-titulos-class text-center text-color-primary font-italic mb-3">
             Organizá un bike tour y sorprendé a tus clientes o invitados.  
-          </h3>    
-
-
+          </h3>  
           <p class="text-center text-color-primary m-0">            
             Hacé que vivan una experiencia inolvidable y dales la oportunidad de concoer los puntos más hermosos de Montevideo y Punta Del Este.
-          </p>   
-          
+          </p>             
         </div>
-      </div>
-      
-
-    
+      </div>    
 
       {{-- Q u é   h a c e m o s  --}}
       @include('paginas.paginas_personalizadas.home_que_hacemos')
 
-      {{-- S e r v i c i o s  --}}
-      @include('paginas.paginas_personalizadas.home_servicios')
+      <div class="background_img background_img_fixed img_break_home"></div>
 
-      
+      {{-- S e r v i c i o s  --}}
+      @include('paginas.paginas_personalizadas.home_servicios')    
+
+      {{-- F o t o s  --}}
+      @include('paginas.paginas_personalizadas.home_fotos')  
 
       {{-- C o n t a c t o  --}}
       @include('paginas.paginas_personalizadas.home_contacto')
-
-
-
-
-    
-
-
-
-
-    
-
-    
-
-   
-
-
-   
-
-    
-
    
 
 @stop

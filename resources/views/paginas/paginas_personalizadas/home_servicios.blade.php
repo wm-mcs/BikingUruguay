@@ -76,7 +76,7 @@
               <div class="p-3 mt-2">
                 <h3 class="sub-titulos-class  text-color-primary  mb-2">Running</h3>                
                 <p class="color-text-gris mb-2">
-                  En Punta del Este y Montevideo.
+                  En Punta del Este.
                 </p>               
               </div>
             </div>
@@ -86,7 +86,7 @@
           <p class="color-text-gris mb-5 mt-5 col-12 text-center">Por más información contactanos. Te responderemos  rápido y con lujo de detalles.</p>
 
            
-          <p class="col-12"><a href="#contacto_home" class="scroll_to Boton-Fuente-Chico Boton-Primario-Sin-Relleno"> Contactar ahora  <i class="fas fa-chevron-right"></i> </a></p>
+          <p class="col-12"><a href="#contacto_home" class="scroll_to Boton-Fuente-Chico Boton-Primario-Sin-Relleno"> Contactar ahora  <i class="fas fa-angle-double-right"></i> </a></p>
         </div>
       </div>
     </section>
