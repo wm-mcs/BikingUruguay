@@ -8,7 +8,8 @@
             <p class="col-12 text-color-primary parrafo-class mb-4 text-center">Para contactarte rellenar el formulario de aquí abajo. O llamá al <i class="fas fa-mobile-alt"></i> @{{empresa.celular}}. Paolo es un gurú de la atención comercial y el está listo para atenderte. </p>
 
             <div class="col-6 col-lg-5 p-5 mb-3">
-             <img src="{{url()}}/imagenes/team/paolo-biking-uruguay-perfil-atencion.jpg" class="img-fluid p5 rounded-circle ">
+             <img src="{{url()}}/imagenes/team/paolo-biking-uruguay-perfil-atencion.jpg" class="img-fluid p5 mb-3 rounded-circle ">
+             <p class="col-12 text-color-primary parrafo-class mb-4 text-center">Paolo es un gurú de la atención comercial y el está listo para atenderte. </p>
             </div>
             
           </div>
