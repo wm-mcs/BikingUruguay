@@ -18,7 +18,7 @@
                 </p>
              </div> 
 
-             <a href="#contacto_home"> Pedir más información <i class="fas fa-angle-double-right"></i></a>
+             <a href="#contacto_home" class="Boton-Fuente-Chica Boton-Primario-Relleno"> Pedir más información <i class="fas fa-angle-double-right"></i></a>
 
 
           </div> 
