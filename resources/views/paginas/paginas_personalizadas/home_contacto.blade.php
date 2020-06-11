@@ -12,7 +12,7 @@
              
             </div>
 
-            <p class="col-8 text-color-primary parrafo-class mb-4 text-center">Paolo es un gurú de la atención comercial y el está listo para atenderte. </p>
+            <p class="col-8 text-color-primary parrafo-class mb-4 text-center">Paolo es un gurú de la atención comercial y está listo para atenderte. </p>
             
           </div>
         </div>
