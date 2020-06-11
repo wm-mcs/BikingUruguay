@@ -147,7 +147,9 @@
 
     
 
-     
+      {{-- Q u é   h a c e m o s  --}}
+      @include('paginas.paginas_personalizadas.home_que_hacemos')
+
       {{-- S e r v i c i o s  --}}
       @include('paginas.paginas_personalizadas.home_servicios')
 

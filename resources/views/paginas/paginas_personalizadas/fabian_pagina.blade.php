@@ -171,7 +171,7 @@
           </p> 
 
           <p>
-            También tenemos <strong>programas especiales para congresos y ejecutivos que vienen del exterior</strong>  que quieran realizar una dinámica grupal y diferente para conocer Montevideo y Punta del Este
+            También tenemos <strong>programas especiales para congresos y ejecutivos que vienen del exterior</strong>  que quieran realizar una dinámica grupal y diferente para conocer Montevideo y Punta del Este.
           </p>
 
          
