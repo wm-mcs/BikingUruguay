@@ -3,7 +3,7 @@
   
 
 
-{{--*/ $ImagenPortada         = url().'/imagenes/BikeUruguay/Galeria/biking-uruguay-foto-foto-de-punta-del-este.jpg' /*--}}
+{{--*/ $ImagenPortada         = url().'/imagenes/BikeUruguay/Portada/Biking-Portada-Principal-1.jpg' /*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/BikeUruguay/logo-bike-uruguay-color-pgxperience.jpg'/*--}}
 {{--*/ $Titulo                = 'Biking Uruguay | Pg-Xperience | En Montevideo y Punta del este' /*--}} 
 {{--*/ $DescriptionEtiqueta   = 'Nuestro objetivo es promocionar un estilo de vida sano a partir de un deporte fuertemente asociado a nuestra identidad. 
@@ -102,7 +102,7 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-10 col-lg-6 p-3 p-lg-5 background-primary" >
+              <div class="col-10 col-lg-6 p-3 p-lg-5 " >
                 <h1  class="titulos-class text-white font-secondary">Bike tours </h1>
                 
                 <p class="parrafo-class text-white">Tours programados por la Rambla de Montevideo y Punta del Este con guías bilingües y trilingües.</p>
